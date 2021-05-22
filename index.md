@@ -8,10 +8,13 @@
     <title>The site of Luhas</title>
 </head>
 <body>
-<section class="showcase" style="padding: 0;">
+<section class="showcase" style="padding: 0; position: absolute">
     <a id="btn" href="home.html"></a>
     <video id="homepage" autoplay muted playsinline></video>
 </section>
+<div class="centerScreen">
+    loading...
+</div>
 </body>
 <script>
     function randomInteger(min, max) {
@@ -19,7 +22,7 @@
     }
 
     function setScreen() {
-        switch (randomInteger(1, 3)) {
+        switch (randomInteger(1, 4)) {
             case 1:
                 document.getElementById("homepage").src = "assets/homepage1.mp4";
                 break;
@@ -28,6 +31,9 @@
                 break;
             case 3:
                 document.getElementById("homepage").src = "assets/homepage3.mp4";
+                break;
+            case 4:
+                document.getElementById("homepage").src = "assets/homepage4.mp4";
                 break;
         }
     }
