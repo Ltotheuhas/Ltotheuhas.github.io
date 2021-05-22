@@ -199,6 +199,12 @@ img#selfie {
     position: relative;
 }
 
+#dr5 {
+    top: 180px;
+    left: -310px;
+    position: relative;
+}
+
 .drgImg1 {
     width: 400px;
 }
@@ -209,11 +215,28 @@ iframe.drgImg1 {
 }
 
 .drgImg2 {
-    width: 200px;
+    width: 260px;
 }
 
 .drgImg3 {
+    width: 200px;
+}
+
+.drgImg4 {
     width: 260px;
+}
+
+.drgImg5 {
+    width: 260px;
+}
+
+.centerScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
 }
 
 /* Portrait */
@@ -241,18 +264,23 @@ iframe.drgImg1 {
     }
 
     #dr2 {
-        left: -117px;
+        left: -80px;
         top: 6px;
     }
 
     #dr3 {
-        left: -37px;
+        left: 20px;
         top: 102px;
     }
 
     #dr4 {
-        left: -172px;
+        left: -91px;
         top: -139px;
+    }
+
+    #dr5 {
+        left: -322px;
+        top: 197px;
     }
 
     .drgImg1 {
@@ -264,10 +292,18 @@ iframe.drgImg1 {
     }
 
     .drgImg2 {
-        width: 120px;
+        width: 200px;
     }
 
     .drgImg3 {
+        width: 120px;
+    }
+
+    .drgImg4 {
+        width: 150px;
+    }
+
+    .drgImg5 {
         width: 150px;
     }
 

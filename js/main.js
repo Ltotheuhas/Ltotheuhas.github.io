@@ -76,5 +76,10 @@ function change() {
     }
 }
 
-
-
+//bernkastel
+function bernkastel() {
+    if (randomInteger(1,1000) != 1) {
+        var el = document.getElementById('bernkastel');
+        el.remove();
+    }
+}
