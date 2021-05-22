@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Cabazon';
+    src: url('Cabazon.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+    color: white;
+}
+
+body {
+    background: black;
+}
+
+h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p#info {
+    font-size: 20px;
+    width: 52%;
+    margin: 15px auto 15px auto;
+    text-align: center;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    text-align: center;
+    padding: 10px;
+    background: #080808;
+    color: white;
+    border-bottom: 1px solid white;
+    z-index: 10;
+}
+
+img#logo {
+    height: 49px;
+}
+
+.footer {
+    position: fixed;
+    padding: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: transparent;
+    color: white;
+}
+
+.copyright {
+    float: left;
+}
+
+.cursorButton {
+    float: right;
+    background: white;
+    color: black;
+    padding: 3px 6px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.showcase {
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.showcase.active {
+    right: 300px;
+}
+
+.showcase video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1;
+    pointer-events: none;
+}
+
+a#btn {
+    display: inline-block;
+    margin: auto;
+    opacity: 0;
+    background: #fff;
+    text-decoration: none;
+}
+
+#draggable {
+    position: absolute;
+}
+
+.page {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+.eva {
+    width: 50%;
+}
+
+div.eva {
+    width: 100%;
+    text-align: center;
+}
+
+.infobox {
+    display: block;
+    background: black;
+    padding: 2% 0 2% 12%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+}
+
+#tapeFloat {
+    width: 60%;
+    margin: 15px auto 15px auto;
+}
+
+div#tapes {
+    float: left;
+    width: 33%;
+}
+
+div#tapes img {
+    width: 100%;
+    padding: 10px;
+}
+
+#ytEmbed {
+    margin: 15px 0 15px 0;
+    text-align: center;
+}
+
+#bio {
+    font-size: 22px;
+    width: 52%;
+    margin: 15px auto 15px auto;
+    text-align: center;
+
+    font-family: 'Cabazon', sans-serif;
+    font-weight: 400;
+    background-image: url("https://i.gifer.com/ByMI.gif");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+img#selfie {
+    width: 30%;
+}
+
+#dr1 {
+    top: -150px;
+    left: 34px;
+    position: relative;
+}
+
+#dr2 {
+    top: -359px;
+    left: -231px;
+    position: relative;
+}
+
+#dr3 {
+    top: 75px;
+    left: -329px;
+    position: relative;
+}
+
+#dr4 {
+    top: -324px;
+    left: -377px;
+    position: relative;
+}
+
+.drgImg1 {
+    width: 400px;
+}
+
+iframe.drgImg1 {
+    height: 120px;
+    top: 400px
+}
+
+.drgImg2 {
+    width: 200px;
+}
+
+.drgImg3 {
+    width: 260px;
+}
+
+/* Portrait */
+@media screen and (orientation: portrait) {
+    a#btn {
+        padding: 14% 34%;
+    }
+}
+
+/* Landscape */
+@media screen and (orientation: landscape) {
+    a#btn {
+        padding: 7% 17%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .showcase {
+        padding: 100px 0 100px 0;
+    }
+
+    #dr1 {
+        left: 15px;
+        top: -234px;
+    }
+
+    #dr2 {
+        left: -117px;
+        top: 6px;
+    }
+
+    #dr3 {
+        left: -37px;
+        top: 102px;
+    }
+
+    #dr4 {
+        left: -172px;
+        top: -139px;
+    }
+
+    .drgImg1 {
+        width: 200px;
+    }
+
+    iframe.drgImg1 {
+        display: none;
+    }
+
+    .drgImg2 {
+        width: 120px;
+    }
+
+    .drgImg3 {
+        width: 150px;
+    }
+
+    .page {
+        width: 85%;
+    }
+
+    #ytEmbed {
+        margin: 5px 0 5px 0;
+    }
+
+    #ytEmbed iframe {
+        width: 85%;
+    }
+
+    p#info {
+        width: 90%;
+    }
+
+    img#selfie {
+        width: 60%;
+    }
+
+    .eva {
+        width: 85%;
+    }
+
+    .infobox {
+        padding: 2% 0 2% 0;
+        width: 80%;
+        font-size: 7px;
+    }
+
+    #tapeFloat {
+        width: 85%;
+    }
+}
+
+@media (pointer: none), (pointer: coarse) {
+    .cursorButton {
+        display: none;
+    }
+}

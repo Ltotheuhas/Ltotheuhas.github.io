@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/jquery-ui.structure.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.css">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="">
+    <link href="assets/favicon.ico" rel="icon" type="image/x-icon"/>
+    <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+    <script src="js/jquery-ui.js" type="text/javascript"></script>
+    <script>$(function () {
+        $('#header').load('header.html');
+    });</script>
+    <script>$(function () {
+        $('#footer').load('footer.html');
+    });</script>
+    <script>
+        $(function () {
+            $("#draggable").draggable();
+        });
+    </script>
+    <title>The site of Luhas</title>
+</head>
+<body>
+<script>NekoType = "black"</script>
+<h1 id=nl>
+    <script src="https://webneko.net/n20171213.js"></script>
+    <a
+            href="https://webneko.net">Neko</a></h1>
+<div id="header"></div>
+<section class="showcase">
+    <!-- Draggable DIV -->
+    <div id="dr1" class="draggable">
+        <a href="https://luhas.bandcamp.com/album/new-luhas"><img class="drgImg1" src="https://f4.bcbits.com/img/a1133352499_10.jpg" style="position: absolute;"></a>
+        <iframe class="drgImg1" style="border: 0; position: relative;"
+                src="https://bandcamp.com/EmbeddedPlayer/album=716679128/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=none/transparent=true/"
+                seamless><a href="https://luhas.bandcamp.com/album/new-luhas">New Luhas by Luhas</a></iframe>
+    </div>
+    <div id="dr2" class="draggable">
+        <a href="evahakai.html"><img class="drgImg1" src="assets/evaGif.gif" style="position: absolute;"></a>
+    </div>
+    <div id="dr3" class="draggable">
+        <a href="aboutme.html"><img class="drgImg2" src="assets/me.png" style="position: absolute;"></a>
+    </div>
+    <div id="dr4" class="draggable">
+        <a href="notebook.html"><img class="drgImg3" src="assets/notebook.png" style="position: absolute;"></a>
+    </div>
+</section>
+<div id="footer"></div>
+</body>
+<script src="js/main.js" type="text/javascript"></script>
+</html>
