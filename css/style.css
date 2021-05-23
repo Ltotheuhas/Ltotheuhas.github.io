@@ -206,8 +206,8 @@ img#selfie {
 }
 
 #dr6 {
-    left: -478px;
-    top: -442px;
+    left: -340px;
+    top: -322px;
     position: relative;
 }
 
@@ -298,28 +298,28 @@ iframe.drgImg1 {
     }
 
     #dr2 {
-        left: -80px;
+        left: -36px;
         top: 6px;
     }
 
     #dr3 {
-        left: 20px;
+        left: 135px;
         top: 102px;
     }
 
     #dr4 {
-        left: -42px;
+        left: 100px;
         top: -139px;
     }
 
     #dr5 {
-        left: -254px;
+        left: -95px;
         top: 197px;
     }
 
     #dr6 {
-        left: -232px;
-        top: 300px;
+        left: -39px;
+        top: 390px;
     }
 
     .drgImg1 {
@@ -346,7 +346,7 @@ iframe.drgImg1 {
         width: 150px;
     }
 
-    .drgImg6 {
+    .drgImg6 img {
         width: 180px;
     }
 
