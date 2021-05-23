@@ -13,30 +13,9 @@
     <video id="homepage" autoplay muted playsinline></video>
 </section>
 <div class="centerScreen">
-    loading...
+    <img src="assets/loading.gif" style="width: 50px">
 </div>
 </body>
-<script>
-    function randomInteger(min, max) {
-        return Math.floor(Math.random() * (max - min + 1)) + min;
-    }
-
-    function setScreen() {
-        switch (randomInteger(1, 4)) {
-            case 1:
-                document.getElementById("homepage").src = "assets/homepage1.mp4";
-                break;
-            case 2:
-                document.getElementById("homepage").src = "assets/homepage2.mp4";
-                break;
-            case 3:
-                document.getElementById("homepage").src = "assets/homepage3.mp4";
-                break;
-            case 4:
-                document.getElementById("homepage").src = "assets/homepage4.mp4";
-                break;
-        }
-    }
-    window.onload = setScreen;
-</script>
+<script src="js/main.js" type="text/javascript"></script>
+<script>window.onload = setScreen();</script>
 </html>

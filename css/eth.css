@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Cabazon';
+    src: url('Cabazon.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+    color: white;
+}
+
+body {
+    background: white;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    text-align: center;
+    padding: 10px;
+    background: white;
+    color: #080808;
+    border-bottom: 1px solid #080808;
+    z-index: 10;
+}
+
+img#logo {
+    height: 49px;
+}
+
+.footer {
+    position: fixed;
+    padding: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: transparent;
+    color: white;
+}
+
+.copyright {
+    float: left;
+    color: black;
+}
+
+.cursorButton {
+    float: right;
+    background: black;
+    color: white;
+    padding: 3px 6px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.centerScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+::-moz-selection {
+    color: black;
+    background: white;
+}
+
+::selection {
+    color: black;
+    background: white;
+}
+
+.slides {
+    width: 100%;
+}
+
+.slides-hidden {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .showcase {
+        padding: 100px 0 100px 0;
+    }
+}
+
+@media (pointer: none), (pointer: coarse) {
+    .cursorButton {
+        display: none;
+    }
+}

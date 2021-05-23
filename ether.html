@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/eth.css">
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/jquery-ui.structure.css">
     <link rel="stylesheet" href="css/jquery-ui.theme.css">
-    <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="">
     <link href="assets/favicon.ico" rel="icon" type="image/x-icon"/>
     <script
             src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -16,7 +14,7 @@
             crossorigin="anonymous"></script>
     <script src="js/jquery-ui.js" type="text/javascript"></script>
     <script>$(function () {
-        $('#header').load('header.html');
+        $('#heather').load('heather.html');
     });</script>
     <script>$(function () {
         $('#footer').load('footer.html');
@@ -24,16 +22,26 @@
     <title>The site of Luhas</title>
 </head>
 <body>
-<script>NekoType = "black"</script>
+<script>NekoType = "white"</script>
 <h1 id=nl>
     <script src="https://webneko.net/n20171213.js"></script>
-    <a ref="https://webneko.net">Neko</a></h1>
-<div id="header"></div>
+    <a href="https://webneko.net">Neko</a></h1>
+<div id="heather"></div>
 <div class="centerScreen">
-    <img src="assets/code.png" style="width: 20px">
+    <section onclick="playAudio()">
+        <img class="slides slides-hidden" src="assets/e/1.jpg">
+        <img class="slides slides-hidden" src="assets/e/2.gif">
+        <img class="slides slides-hidden" src="assets/e/3.png">
+        <img class="slides slides-hidden" src="assets/e/4.png">
+        <img class="slides slides-hidden" src="assets/e/5.png">
+        <img class="slides slides-hidden" src="assets/e/6.png">
+        <img class="slides slides-hidden" src="assets/e/7.png">
+    </section>
+    <audio src="assets/e/end.mp3" id="player" loop autoplay></audio>
 </div>
 <div id="footer"></div>
 </body>
 <script src="js/main.js" type="text/javascript"></script>
+<script>window.onload = playAudio();</script>
 <script>window.onload = nullify();</script>
 </html>

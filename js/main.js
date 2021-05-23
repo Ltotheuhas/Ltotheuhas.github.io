@@ -1,8 +1,32 @@
 //disable image interaction / right click
-$('img').on('dragstart', function(event) { event.preventDefault(); });
-$("body").on("contextmenu", "img", function(e) {
+$('img').on('dragstart', function (event) {
+    event.preventDefault();
+});
+$("body").on("contextmenu", "img", function (e) {
     return false;
 });
+
+//index video
+function randomInteger(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function setScreen() {
+    switch (randomInteger(1, 4)) {
+        case 1:
+            document.getElementById("homepage").src = "assets/homepage1.mp4";
+            break;
+        case 2:
+            document.getElementById("homepage").src = "assets/homepage2.mp4";
+            break;
+        case 3:
+            document.getElementById("homepage").src = "assets/homepage3.mp4";
+            break;
+        case 4:
+            document.getElementById("homepage").src = "assets/homepage4.mp4";
+            break;
+    }
+}
 
 //fluctuating text content on the eva page
 var texts = new Array();
@@ -36,7 +60,7 @@ function changeText() {
 setInterval(changeText, 50); /*Call it here*/
 changeText();
 
-//image deaggable
+//image draggable
 $(".draggable").draggable();
 
 //epic cursor button
@@ -78,8 +102,42 @@ function change() {
 
 //bernkastel
 function bernkastel() {
-    if (randomInteger(1,1000) != 1) {
-        var el = document.getElementById('bernkastel');
+    var el;
+    var ranInt = randomInteger(1, 1000);
+    if (ranInt != 1) {
+        el = document.getElementById('bernkastel');
         el.remove();
     }
+    if (ranInt != 333) {
+        el = document.getElementById('ether');
+        el.remove();
+    }
+    console.log(ranInt);
+}
+
+//nullify
+function nullify() {
+    var el = document.getElementById('bernkastel');
+    el.remove();
+
+    var et = document.getElementById('ether');
+    et.remove();
+}
+
+//eth
+addEventListener("load",() => { // "load" is safe but "DOMContentLoaded" starts earlier
+    var index = 0;
+    const slides = document.querySelectorAll(".slides");
+    const classHide = "slides-hidden", count = slides.length;
+    nextSlide();
+    function nextSlide() {
+        slides[(index ++) % count].classList.add(classHide);
+        slides[index % count].classList.remove(classHide);
+        setTimeout(nextSlide, 50);
+    }
+});
+
+//audio
+function playAudio() {
+    document.getElementById('player').play();
 }
