@@ -205,8 +205,15 @@ img#selfie {
     position: relative;
 }
 
+#dr6 {
+    left: -478px;
+    top: -442px;
+    position: relative;
+}
+
 .drgImg1 {
     width: 400px;
+    position: absolute;
 }
 
 iframe.drgImg1 {
@@ -216,18 +223,27 @@ iframe.drgImg1 {
 
 .drgImg2 {
     width: 260px;
+    position: absolute;
 }
 
 .drgImg3 {
     width: 200px;
+    position: absolute;
 }
 
 .drgImg4 {
     width: 260px;
+    position: absolute;
 }
 
 .drgImg5 {
     width: 260px;
+    position: absolute;
+}
+
+.drgImg6 {
+    width: 300px;
+    position: absolute;
 }
 
 .centerScreen {
@@ -274,13 +290,18 @@ iframe.drgImg1 {
     }
 
     #dr4 {
-        left: -91px;
+        left: -42px;
         top: -139px;
     }
 
     #dr5 {
-        left: -322px;
+        left: -254px;
         top: 197px;
+    }
+
+    #dr6 {
+        left: -232px;
+        top: 300px;
     }
 
     .drgImg1 {
@@ -305,6 +326,10 @@ iframe.drgImg1 {
 
     .drgImg5 {
         width: 150px;
+    }
+
+    .drgImg6 {
+        width: 180px;
     }
 
     .page {
