@@ -18,6 +18,7 @@ body {
 }
 
 h1 {
+    font-size: 30px;
     display: block;
     width: 100%;
     text-align: center;
@@ -153,7 +154,7 @@ div#tapes img {
     padding: 10px;
 }
 
-#ytEmbed {
+.ytEmbed {
     margin: 15px 0 15px 0;
     text-align: center;
 }
@@ -171,7 +172,7 @@ div#tapes img {
     -webkit-text-fill-color: transparent;
 }
 
-img#selfie {
+img.selfie {
     width: 30%;
 }
 
@@ -213,8 +214,8 @@ img#selfie {
 }
 
 #dr7 {
-    left: -254px;
-    top: -237px;
+    left: -295px;
+    top: -323px;
     position: relative;
 }
 
@@ -271,22 +272,28 @@ iframe.drgImg1 {
     min-height: 100vh;
 }
 
-#poster {
-    width: 130px;
-    height: 195px;
-    position: relative;
-    display: inline-block;
-    margin: 50px;
-}
-#poster .img-top {
+#hoverImg #img-top {
     display: none;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 99;
 }
-#poster:hover .img-top {
+
+#hoverImg:hover #img-top {
     display: inline;
+}
+
+#tba {
+    cursor: pointer;
+}
+
+.artist:link {
+    text-decoration: underline;
+}
+
+.artist:hover {
+    text-decoration: line-through;
 }
 
 /* Portrait */
@@ -314,33 +321,33 @@ iframe.drgImg1 {
     }
 
     #dr2 {
-        left: -15px;
+        left: -48px;
         top: -31px;
     }
 
     #dr3 {
-        left: 169px;
+        left: 95px;
         top: 108px;
     }
 
     #dr4 {
-        left: -31px;
+        left: -148px;
         top: 600px;
     }
 
     #dr5 {
-        left: 105px;
+        left: -47px;
         top: -148px;
     }
 
     #dr6 {
-        left: -89px;
+        left: -297px;
         top: 137px;
     }
 
     #dr7 {
-        left: -40px;
-        top: 409px;
+        left: -256px;
+        top: 307px;
     }
 
     .drgImg1 {
@@ -376,18 +383,18 @@ iframe.drgImg1 {
     }
 
     .mobileSpace {
-        top: 1086px;
+        top: 1180px;
     }
 
     .page {
         width: 85%;
     }
 
-    #ytEmbed {
+    .ytEmbed {
         margin: 5px 0 5px 0;
     }
 
-    #ytEmbed iframe {
+    .ytEmbed iframe {
         width: 85%;
     }
 
@@ -395,7 +402,7 @@ iframe.drgImg1 {
         width: 90%;
     }
 
-    img#selfie {
+    img.selfie {
         width: 60%;
     }
 
@@ -411,6 +418,10 @@ iframe.drgImg1 {
 
     #tapeFloat {
         width: 85%;
+    }
+
+    .ui-draggable-handle {
+        touch-action: auto !important;
     }
 }
 
