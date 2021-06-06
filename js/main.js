@@ -12,7 +12,7 @@ function randomInteger(min, max) {
 }
 
 function setScreen() {
-    switch (randomInteger(1, 4)) {
+    switch (randomInteger(1, 5)) {
         case 1:
             document.getElementById("homepage").src = "assets/homepage1.mp4";
             break;
@@ -24,6 +24,9 @@ function setScreen() {
             break;
         case 4:
             document.getElementById("homepage").src = "assets/homepage4.mp4";
+            break;
+        case 5:
+            document.getElementById("homepage").src = "assets/homepage5.mp4";
             break;
     }
 }
@@ -125,13 +128,14 @@ function nullify() {
 }
 
 //eth
-addEventListener("load",() => { // "load" is safe but "DOMContentLoaded" starts earlier
+addEventListener("load", () => { // "load" is safe but "DOMContentLoaded" starts earlier
     var index = 0;
     const slides = document.querySelectorAll(".slides");
     const classHide = "slides-hidden", count = slides.length;
     nextSlide();
+
     function nextSlide() {
-        slides[(index ++) % count].classList.add(classHide);
+        slides[(index++) % count].classList.add(classHide);
         slides[index % count].classList.remove(classHide);
         setTimeout(nextSlide, 50);
     }
@@ -141,3 +145,15 @@ addEventListener("load",() => { // "load" is safe but "DOMContentLoaded" starts 
 function playAudio() {
     document.getElementById('player').play();
 }
+
+// prisms
+var mesh = new MeshSpin();
+mesh.getRotationOffset = mesh.rotateByMouse;
+mesh.getRotationOffset = function() {
+    r = mesh.rotateByMouse();
+    return {x: r.x - 0.01, y: r.y - 0.005, z: 0.005};
+};
+mesh.props.viewBox = [-200, -100, 400, 200];
+mesh.props.scaleFactor = 5;
+mesh.setup('wrapper');
+mesh.run();

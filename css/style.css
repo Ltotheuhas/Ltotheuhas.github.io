@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 26px;
     display: block;
     width: 100%;
     text-align: center;
@@ -132,7 +132,7 @@ div.eva {
 .infobox {
     display: block;
     background: black;
-    padding: 2% 0 2% 12%;
+    padding: 2% 0 2% 0;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
@@ -152,6 +152,11 @@ div#tapes {
 div#tapes img {
     width: 100%;
     padding: 10px;
+}
+
+#evaIs {
+    font-size: 1.8vw;
+    text-align: left;
 }
 
 .ytEmbed {
@@ -311,6 +316,10 @@ iframe.drgImg1 {
 }
 
 @media only screen and (max-width: 900px) {
+    #evaIs {
+        font-size: 3vw;
+    }
+
     .showcase {
         padding: 100px 0 100px 0;
     }
@@ -411,9 +420,7 @@ iframe.drgImg1 {
     }
 
     .infobox {
-        padding: 2% 0 2% 0;
         width: 80%;
-        font-size: 7px;
     }
 
     #tapeFloat {
@@ -422,6 +429,10 @@ iframe.drgImg1 {
 
     .ui-draggable-handle {
         touch-action: auto !important;
+    }
+
+    #wrapper svg {
+        margin-top: 100px;
     }
 }
 
