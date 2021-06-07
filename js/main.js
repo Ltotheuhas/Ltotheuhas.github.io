@@ -42,7 +42,8 @@ texts.push("Eva Hakai is for the online era avant-teens");
 texts.push("Eva Hakai is not dead");
 texts.push("Eva Hakai is a clothing brand");
 texts.push("Eva Hakai is something to represent");
-texts.push("Eva Hakai is ﷽");
+texts.push("Eva Hakai is not clearly defined");
+texts.push("Eva Hakai is completely undefined actually");
 texts.push("Eva Hakai is a loose mesh of musicians");
 texts.push("Eva Hakai is a ton of work");
 texts.push("Eva Hakai is cooler than your average net label");
@@ -149,7 +150,7 @@ function playAudio() {
 // prisms
 var mesh = new MeshSpin();
 mesh.getRotationOffset = mesh.rotateByMouse;
-mesh.getRotationOffset = function() {
+mesh.getRotationOffset = function () {
     r = mesh.rotateByMouse();
     return {x: r.x - 0.01, y: r.y - 0.005, z: 0.005};
 };
