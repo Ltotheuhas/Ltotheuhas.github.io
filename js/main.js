@@ -12,23 +12,9 @@ function randomInteger(min, max) {
 }
 
 function setScreen() {
-    switch (randomInteger(1, 5)) {
-        case 1:
-            document.getElementById("homepage").src = "assets/homepage1.mp4";
-            break;
-        case 2:
-            document.getElementById("homepage").src = "assets/homepage2.mp4";
-            break;
-        case 3:
-            document.getElementById("homepage").src = "assets/homepage3.mp4";
-            break;
-        case 4:
-            document.getElementById("homepage").src = "assets/homepage4.mp4";
-            break;
-        case 5:
-            document.getElementById("homepage").src = "assets/homepage5.mp4";
-            break;
-    }
+    var vidNr = randomInteger(1, 6);
+
+    document.getElementById("homepage").src = "assets/homepage" + vidNr + ".mp4";
 }
 
 //fluctuating text content on the eva page
