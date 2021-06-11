@@ -13,8 +13,13 @@ function randomInteger(min, max) {
 
 function setScreen() {
     var vidNr = randomInteger(1, 6);
+    var rareSeed = randomInteger(1, 50);
 
-    document.getElementById("homepage").src = "assets/homepage" + vidNr + ".mp4";
+    if (rareSeed == 33) {
+        document.getElementById("homepage").src = "assets/homepage/homepage99.mp4";
+    } else {
+        document.getElementById("homepage").src = "assets/homepage/homepage" + vidNr + ".mp4";
+    }
 }
 
 //fluctuating text content on the eva page
