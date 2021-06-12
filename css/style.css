@@ -316,6 +316,10 @@ iframe.drgImg1 {
 }
 
 @media only screen and (max-width: 900px) {
+    p.info {
+        width: 90%;
+    }
+
     #evaIs {
         font-size: 3vw;
     }
@@ -412,7 +416,7 @@ iframe.drgImg1 {
     }
 
     img.selfie {
-        width: 60%;
+        width: 80%;
     }
 
     .eva {
