@@ -454,6 +454,10 @@ iframe.drgImg1 {
     .hcb-wrapper {
         width: 100%;
     }
+
+    .comment img {
+        width: 100%;
+    }
 }
 
 @media (pointer: none), (pointer: coarse) {
