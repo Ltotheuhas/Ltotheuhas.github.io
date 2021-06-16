@@ -144,12 +144,12 @@ div.eva {
     margin: 15px auto 15px auto;
 }
 
-div#tapes {
+div.tapes {
     float: left;
     width: 33%;
 }
 
-div#tapes img {
+div.tapes img {
     width: 100%;
     padding: 10px;
 }
@@ -259,7 +259,7 @@ iframe.drgImg1 {
     position: absolute;
 }
 
-.drgImg7 img {
+.drgImg7 {
     width: 260px;
     position: absolute;
 }
@@ -299,6 +299,18 @@ iframe.drgImg1 {
 
 .artist:hover {
     text-decoration: line-through;
+}
+
+.commentDiv {
+    padding: 100px 20px;
+}
+
+.hcb-wrapper {
+    width: 700px;
+}
+
+.home-desc, .hcb-icon, #hcb_subscribe, #hcb_settings {
+    display: none !important;
 }
 
 /* Portrait */
@@ -391,7 +403,7 @@ iframe.drgImg1 {
         width: 180px;
     }
 
-    .drgImg7 img {
+    .drgImg7 {
         width: 200px;
     }
 
@@ -437,6 +449,10 @@ iframe.drgImg1 {
 
     #wrapper svg {
         margin-top: 100px;
+    }
+
+    .hcb-wrapper {
+        width: 100%;
     }
 }
 

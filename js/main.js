@@ -12,7 +12,7 @@ function randomInteger(min, max) {
 }
 
 function setScreen() {
-    var vidNr = randomInteger(1, 6);
+    var vidNr = randomInteger(1, 7);
     var rareSeed = randomInteger(1, 50);
 
     if (rareSeed == 33) {
