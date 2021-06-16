@@ -309,7 +309,7 @@ iframe.drgImg1 {
     width: 700px;
 }
 
-.home-desc, .hcb-icon, #hcb_subscribe, #hcb_settings {
+.home-desc, .hcb-icon, #hcb_subscribe, #hcb_settings, .likes, .hcb-like {
     display: none !important;
 }
 
