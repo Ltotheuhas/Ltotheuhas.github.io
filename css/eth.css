@@ -29,6 +29,17 @@ body {
     z-index: 777;
 }
 
+#bernkastel, #ether {
+    margin: 80px 0 0 10px;
+    position: fixed;
+    opacity: 50%;
+    z-index: 1000;
+}
+
+#layerNeko0 {
+    position: fixed !important;
+}
+
 img#logo {
     height: 49px;
 }
@@ -84,12 +95,6 @@ img#logo {
 
 .slides-hidden {
     display: none;
-}
-
-@media only screen and (max-width: 900px) {
-    .showcase {
-        padding: 100px 0 100px 0;
-    }
 }
 
 @media (pointer: none), (pointer: coarse) {
