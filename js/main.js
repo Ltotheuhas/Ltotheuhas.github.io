@@ -22,6 +22,28 @@ function setScreen() {
     }
 }
 
+//load header and footer
+$(function () {
+    $('#header').load('header.html');
+});
+$(function () {
+    $('#footer').load('footer.html');
+});
+
+//draggable
+$(function () {
+    var a = 7;
+    $('.draggable').draggable({
+        start: function(event, ui) { $(this).css("z-index", a++); }
+    });
+    $('.draggable').click(function() {
+        $(this).addClass('top').removeClass('bottom');
+        $(this).siblings().removeClass('top').addClass('bottom');
+        $(this).css("z-index", a++);
+
+    });
+});
+
 //fluctuating text content on the eva page
 var texts = new Array();
 texts.push("Eva Hakai is an internet music label");
