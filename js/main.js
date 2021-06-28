@@ -13,7 +13,7 @@ function randomInteger(min, max) {
 
 //array shuffle
 function shuffle(arr) {
-    var currentIndex = arr.length,  randomIndex;
+    var currentIndex = arr.length, randomIndex;
 
     // While there remain elements to shuffle...
     while (0 !== currentIndex) {
@@ -204,6 +204,12 @@ imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/67094
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/659378150412779550/EMlSI3zXYAAY4Au.png");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/652231277667155989/EJj_YHRXUAEygvW.png");
 imageLinks.push("https://pbs.twimg.com/media/E3ygXSBWQAET_Au?format=jpg");
+imageLinks.push("https://cdn.discordapp.com/attachments/844906820753293342/856887899780939786/unknown.jpeg");
+imageLinks.push("https://cdn.discordapp.com/attachments/777265352492318742/857343800653512744/ezgif-2-6bb49f72b6bf.gif");
+imageLinks.push("https://cdn.discordapp.com/attachments/417089719747215370/817506600657879040/1551352447436.png");
+imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/858973412679483392/20210627_165714.jpg");
+imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/858973615181791273/20210622_215733.jpg");
+imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/858989031249805343/Untitled-1.png");
 
 shuffle(imageLinks);
 
@@ -218,6 +224,20 @@ if (vsmile1 + 1 != vsmile2) {
 imageLinks.forEach(setImages);
 
 function setImages() {
-    document.getElementById("img" + imageCount).src = imageLinks[imageCount-1];
+    document.getElementById("img" + imageCount).src = imageLinks[imageCount - 1];
     imageCount++;
+}
+
+var jlr = imageLinks.indexOf("https://cdn.discordapp.com/attachments/320231633968037890/858973615181791273/20210622_215733.jpg");
+jlr += 1;
+var jlrImg = document.getElementById("img" + jlr);
+jlrImg.style.cursor = "pointer";
+jlrImg.addEventListener('click', function () {
+    window.open("https://twitter.com/touhoufan2009", '_blank').focus();
+});
+
+//scroll to top cause idk
+function scrolltop() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }

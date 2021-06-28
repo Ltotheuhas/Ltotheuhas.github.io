@@ -166,6 +166,7 @@ div.tapes img {
 .ytEmbed {
     margin: 15px 0 15px 0;
     text-align: center;
+    width: 100%;
 }
 
 #bio {
@@ -286,6 +287,7 @@ iframe.drgImg1 {
 
 .mobileSpace {
     position: absolute;
+    opacity: 0;
 }
 
 .centerScreen {
