@@ -1,9 +1,12 @@
-//disable image interaction / right click
+//disable image interaction / right click / middle click
 $('img').on('dragstart', function (event) {
     event.preventDefault();
 });
 $("body").on("contextmenu", "img", function (e) {
     return false;
+});
+window.addEventListener("auxclick", (event) => {
+    if (event.button === 1) event.preventDefault();
 });
 
 //random int generator
@@ -93,7 +96,7 @@ function changeText() {
 
 }
 
-setInterval(changeText, 50); /*Call it here*/
+setInterval(changeText, 50);
 changeText();
 
 //epic cursor button
@@ -105,6 +108,7 @@ function checkNonduplicateCursor() {
         newCursor = randomInteger(1, 5);
     }
     currentCursor = newCursor;
+    return currentCursor;
 }
 
 function change() {
@@ -212,7 +216,7 @@ imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/85897
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/858989031249805343/Untitled-1.png");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/859022864488857600/E49pvRLX0Agr7Zo.png");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/859031323061387284/20210628_132333.jpg");
-imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/859034006418751488/20210628_132529.jpg");
+imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/860081448652636220/Untitled-1.png");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/859034006917480448/20210628_132539.jpg");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/859034007136501780/20210628_132750.jpg");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/859034007445438495/20210628_132759.jpg");
