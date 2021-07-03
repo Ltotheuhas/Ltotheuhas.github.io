@@ -217,9 +217,9 @@ imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/85898
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/859022864488857600/E49pvRLX0Agr7Zo.png");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/859031323061387284/20210628_132333.jpg");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/860081448652636220/Untitled-1.png");
-imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/859034006917480448/20210628_132539.jpg");
-imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/859034007136501780/20210628_132750.jpg");
-imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/859034007445438495/20210628_132759.jpg");
+imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/860887058100256798/Screenshot_20210702-215310.jpg");
+imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/860887058573819934/Screenshot_20210702-215054.jpg");
+imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/860887058842386482/20210703_142224.jpg");
 
 shuffle(imageLinks);
 
