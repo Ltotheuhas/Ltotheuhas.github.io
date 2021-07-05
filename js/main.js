@@ -5,6 +5,9 @@ $('img').on('dragstart', function (event) {
 $("body").on("contextmenu", "img", function (e) {
     return false;
 });
+$("body").on("contextmenu", "a", function (e) {
+    return false;
+});
 window.addEventListener("auxclick", (event) => {
     if (event.button === 1) event.preventDefault();
 });
@@ -218,7 +221,7 @@ imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/85902
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/859031323061387284/20210628_132333.jpg");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/860081448652636220/Untitled-1.png");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/860887058100256798/Screenshot_20210702-215310.jpg");
-imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/860887058573819934/Screenshot_20210702-215054.jpg");
+imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/861271804344926268/Screenshot_1.png");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/860887058842386482/20210703_142224.jpg");
 
 shuffle(imageLinks);
