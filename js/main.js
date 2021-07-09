@@ -79,6 +79,7 @@ texts.push("Eva Hakai is a reaction to the current musical zeitgeist");
 texts.push("Eva Hakai is for the online era avant-teens");
 texts.push("Eva Hakai is not dead");
 texts.push("Eva Hakai is a clothing brand");
+texts.push("Eva Hakai is really with them shits");
 texts.push("Eva Hakai is something to represent");
 texts.push("Eva Hakai is not clearly defined");
 texts.push("Eva Hakai is completely undefined actually");
@@ -86,6 +87,17 @@ texts.push("Eva Hakai is a loose mesh of musicians");
 texts.push("Eva Hakai is a ton of work");
 texts.push("Eva Hakai is cooler than your average net label");
 texts.push("Eva Hakai is a part of history");
+texts.push("Eva Hakai is gonna release vol 2 eventually");
+texts.push("Eva Hakai is the work of the one and only Luhaz");
+texts.push("Eva Hakai is genuinely not dead trust me");
+texts.push("Eva Hakai is whatever you want it to be");
+texts.push("Eva Hakai is the best to do it");
+texts.push("Eva Hakai is weeeiiird man");
+texts.push("Eva Hakai is real af no fake shit to be found");
+texts.push("Eva Hakai is flashing right before your eyes");
+texts.push("Eva Hakai is the reason no agreements blew up");
+texts.push("Eva Hakai is there for you");
+
 
 var point = 0;
 
@@ -201,7 +213,6 @@ imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/77901
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/779015856330899536/EnJFzZBXYAIKKXx.png");
 imageLinks.push("https://pbs.twimg.com/media/E3WQxqwVkA8VUX5.jpg");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/777110905845448744/unknown.png");
-imageLinks.push("https://web.archive.org/web/20091027091602if_/http://www.geocities.com/anelahmetovic/icanthearvoices.gif");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/755384773924618290/20171218_095712.jpg");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/737969514523787294/Screenshot_20191228-174057__01.jpg");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/737969472593461268/Screenshot_20191228-174042__01.jpg");
@@ -223,6 +234,9 @@ imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/86008
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/860887058100256798/Screenshot_20210702-215310.jpg");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/861271804344926268/Screenshot_1.png");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/860887058842386482/20210703_142224.jpg");
+imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/862250581400485898/20210706_123239.jpg");
+imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/862250604851363840/20210704_102834.jpg");
+imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/862378244917690378/a0882161684_10.png");
 
 shuffle(imageLinks);
 
