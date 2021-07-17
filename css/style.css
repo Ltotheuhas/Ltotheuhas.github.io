@@ -112,8 +112,13 @@ a#btn {
     text-decoration: none;
 }
 
-#draggable {
+.draggable {
     position: absolute;
+    cursor: grab;
+}
+
+.draggable:active {
+    cursor: grabbing;
 }
 
 .page {
