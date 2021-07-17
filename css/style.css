@@ -67,6 +67,7 @@ img#logo {
     width: 100%;
     background: transparent;
     color: white;
+    z-index: 999;
 }
 
 .copyright {
@@ -238,16 +239,6 @@ img.selfie {
     top: -323px;
     position: relative;
     z-index: 0;
-}
-
-.top {
-    z-index: 2;
-    position: relative
-}
-
-.bottom {
-    z-index: 1;
-    position: relative
 }
 
 .drgImg1 {

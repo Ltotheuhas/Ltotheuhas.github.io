@@ -194,7 +194,6 @@ var imageCount = 1;
 
 imageLinks.push("https://media.discordapp.net/attachments/844906820753293342/855534397918937118/machi_maho.png");
 imageLinks.push("https://media.discordapp.net/attachments/320231633968037890/832176275724173312/159590846_158780396064499_8190797422735316054_n.jpg");
-imageLinks.push("https://media.discordapp.net/attachments/320231633968037890/822496623481192538/a4125814452_10.png");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/816046817485389824/EvZgj1sXMAAsMmM.png");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/807323533700235345/1565762407319.png");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/806454519005315093/EtSo21BVgAAar-g.png");
@@ -237,6 +236,13 @@ imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/86088
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/862250581400485898/20210706_123239.jpg");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/862250604851363840/20210704_102834.jpg");
 imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/862378244917690378/a0882161684_10.png");
+imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/865896882067996692/20210302_092903.jpg");
+imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/865896905350447154/unknown-3.png");
+imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/865896918558834698/Screenshot_20210415-233153.jpg");
+imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/865896933019877376/20210415_222552.jpg");
+imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/865896944538615818/EsPdqPNU0AE9ATN.png");
+imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/865896955648147476/20210220_214006.jpg");
+imageLinks.push("https://cdn.discordapp.com/attachments/320231633968037890/865896967120224256/DXeZtBIVwAAn904.png");
 
 shuffle(imageLinks);
 
