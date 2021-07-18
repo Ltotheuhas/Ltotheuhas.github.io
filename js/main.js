@@ -36,8 +36,8 @@ function shuffle(arr) {
 
 //index video
 function setScreen() {
-    var vidNr = randomInteger(1, 7);
-    var rareSeed = randomInteger(1, 50);
+    var vidNr = randomInteger(1, 8);
+    var rareSeed = randomInteger(1, 70);
 
     if (rareSeed == 33) {
         document.getElementById("homepage").src = "assets/homepage/homepage99.mp4";
@@ -69,7 +69,7 @@ $(function () {
     });
 });
 
-//fluctuating text content on the eva page
+//fluctuating text.txt content on the eva page
 var texts = new Array();
 texts.push("Eva Hakai is an internet music label");
 texts.push("Eva Hakai is a creative collective");

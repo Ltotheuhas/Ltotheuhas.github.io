@@ -1271,7 +1271,7 @@ var data = $.extend( $.expr[ ":" ], {
 
 //>>label: disableSelection
 //>>group: Core
-//>>description: Disable selection of text content within the set of matched elements.
+//>>description: Disable selection of text.txt content within the set of matched elements.
 //>>docs: http://api.jqueryui.com/disableSelection/
 
 // This file is deprecated

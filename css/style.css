@@ -475,7 +475,7 @@ iframe.drgImg1 {
 }
 
 @media (pointer: none), (pointer: coarse) {
-    .cursorButton {
-        display: none;
+    .cursorButton, #secTwo {
+        display: none !important;
     }
 }
