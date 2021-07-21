@@ -475,7 +475,11 @@ iframe.drgImg1 {
 }
 
 @media (pointer: none), (pointer: coarse) {
-    .cursorButton, #secTwo {
-        display: none !important;
+    .cursorButton {
+        display: none;
+    }
+
+    #secTwo {
+        padding-top: 500px !important;
     }
 }
