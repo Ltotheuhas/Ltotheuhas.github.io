@@ -331,7 +331,7 @@ iframe.drgImg1 {
     display: none !important;
 }
 
-[title="next page"] {
+[title="next page"], [title="previous page"] {
     display: table !important;
 }
 
