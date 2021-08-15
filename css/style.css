@@ -331,6 +331,10 @@ iframe.drgImg1 {
     display: none !important;
 }
 
+[title="next page"] {
+    display: table !important;
+}
+
 /* Portrait */
 @media screen and (orientation: portrait) {
     a#btn {
