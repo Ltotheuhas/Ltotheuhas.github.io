@@ -17,7 +17,7 @@
 </head>
 <body>
 <section class="showcase" style="padding: 0; position: absolute">
-    <a id="btn" href="home.html"></a>
+    <a id="btn" href="second.html"></a>
     <video id="homepage" autoplay muted playsinline></video>
 </section>
 <div class="centerScreen">
