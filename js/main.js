@@ -36,7 +36,7 @@ function shuffle(arr) {
 
 //index video
 function setScreen() {
-    var vidNr = randomInteger(1, 8);
+    var vidNr = randomInteger(1, 14);
     var rareSeed = randomInteger(1, 70);
 
     if (rareSeed == 33) {
