@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/radioOnly.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/jquery-ui.structure.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.css">
+    <link href="assets/favicon.ico" rel="icon" type="image/x-icon"/>
+    <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+    <script src="js/jquery-ui.js" type="text/javascript"></script>
+    <script src="http://kickstart.ch/js/meshspin.min.js"></script>
+    <style>
+        iframe#tamagotchi {
+            display: block;
+            width: 100%;
+            border: none;
+            overflow-y: auto;
+            overflow-x: hidden;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            z-index: -666;
+            padding-top: 27px;
+        }
+    </style>
+    <title>The site of Luhas</title>
+</head>
+<body>
+<script>NekoType = "black"</script>
+<h1 id=nl>
+    <script src="https://webneko.net/n20171213.js"></script>
+    <a ref="https://webneko.net">Neko</a></h1>
+<div id="header"></div>
+<div class="sketchfab-embed-wrapper">
+    <iframe id="tamagotchi" title="DraftPunk HW#10: Game-Ready Asset (Tamagotchi)" frameborder="0" allowfullscreen mozallowfullscreen="true"
+            webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking"
+            xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered
+            web-share src="https://sketchfab.com/models/2311779775cb42a5ac81c4a378af176e/embed?autospin=0&autostart=1&camera=0&ui_hint=0">
+    </iframe>
+</div>
+<div id="winamp-container">
+    <div id="app"></div>
+    <script src="https://unpkg.com/webamp"></script>
+    <script>
+        const Webamp = window.Webamp;
+        const webamp = new Webamp({
+            initialTracks: [
+                {
+                    metaData: {
+                        artist: "bye2",
+                        title: "Kotu Tavsan"
+                    },
+                    // NOTE: Your audio file must be served from the same domain as your HTML
+                    // file, or served with permissive CORS HTTP headers:
+                    // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+                    url: "assets/songs/bye2 - Kotu Tavsan.wav"
+                },
+                {
+                    metaData: {
+                        artist: "DJ Assault",
+                        title: "Sometimes"
+                    },
+                    url: "assets/songs/DJ Assault - Sometimes.mp3"
+                },
+                {
+                    metaData: {
+                        artist: "Exodia",
+                        title: "825 hp"
+                    },
+                    url: "assets/songs/Exodia - 825 hp.mp3"
+                },
+                {
+                    metaData: {
+                        artist: "Glidelas & Telemist",
+                        title: "PK RAVE"
+                    },
+                    url: "assets/songs/Glidelas & Telemist - PK RAVE.wav"
+                },
+                {
+                    metaData: {
+                        artist: "Golden Boy",
+                        title: "Weak Motherfuckers"
+                    },
+                    url: "assets/songs/Golden Boy - Weak Motherfuckers.wav"
+                },
+                {
+                    metaData: {
+                        artist: "Goreshit",
+                        title: "Beautiful Loli Thing"
+                    },
+                    url: "assets/songs/Goreshit - Beautiful Loli Thing.wav"
+                },
+                {
+                    metaData: {
+                        artist: "Goreshit",
+                        title: "black is the new black"
+                    },
+                    url: "assets/songs/goreshit - black is the new black.mp3"
+                },
+                {
+                    metaData: {
+                        artist: "LIMP PUMPO",
+                        title: "LIKK (full ver.)"
+                    },
+                    url: "assets/songs/LIMP PUMPO - LIKK (full ver.).mp3"
+                },
+                {
+                    metaData: {
+                        artist: "Nfract",
+                        title: "Deadlight"
+                    },
+                    url: "assets/songs/Nfract - Deadlight.mp3"
+                },
+                {
+                    metaData: {
+                        artist: "osno1",
+                        title: "mr brightside (osno1 remix)"
+                    },
+                    url: "assets/songs/osno1 - mr brightside (osno1 remix).wav"
+                },
+                {
+                    metaData: {
+                        artist: "rave kitten",
+                        title: "all the way (britney spears hardcore rework)"
+                    },
+                    url: "assets/songs/rave kitten - all the way (britney spears hardcore rework).mp3"
+                }
+            ],
+        });
+
+        // Returns a promise indicating when it's done loading.
+        webamp.renderWhenReady(document.getElementById('app'));
+    </script>
+</div>
+<div id="chat-container">
+    <script id="cid0020000295060627983" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 201px;height: 300px;">{"handle":"luhaseatsfentanyl","arch":"js","styles":{"a":"000000","b":100,"c":"FFFFFF","d":"FFFFFF","k":"000000","l":"000000","m":"000000","n":"FFFFFF","p":"10","q":"000000","r":100,"pos":"br","cv":1,"cvfnt":"Consolas, monaco, monospace, sans-serif","cvfntsz":"10pt","cvbg":"000000","cvw":200,"cvh":42,"surl":0,"ticker":1,"fwtickm":1}}</script>
+</div>
+</body>
+<script src="js/radioOnly.js" type="text/javascript"></script>
+</html>

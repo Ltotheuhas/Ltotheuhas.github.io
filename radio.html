@@ -13,6 +13,27 @@
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
             crossorigin="anonymous"></script>
     <script src="js/jquery-ui.js" type="text/javascript"></script>
+    <script src="http://kickstart.ch/js/meshspin.min.js"></script>
+    <style>
+        iframe {
+            display: block;
+            width: 100%;
+            border: none;
+            overflow-y: auto;
+            overflow-x: hidden;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            z-index: 1;
+            padding-top: 25px;
+        }
+    </style>
     <title>The site of Luhas</title>
 </head>
 <body>
@@ -21,21 +42,9 @@
     <script src="https://webneko.net/n20171213.js"></script>
     <a ref="https://webneko.net">Neko</a></h1>
 <div id="header"></div>
-<section class="showcase" style="display: block; padding: 0">
-    <div class="centerScreen">
-        <p class="info">massive WIP I wanna have it so you click on the radio and it plays a continuous stream of chunes eventually like with a real radio station</p>
-        <h1>meanwhile have this</p>
-        <div style="height: 30px"></div>
-        <p class="ytEmbed">
-            <iframe width="560" height="315" src="https://luhas.neocities.org/radio.html"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-        </p>
-    </div>
-</section>
-<div id="footer"></div>
+<iframe src="https://skins.webamp.org/">
+    Your browser doesn't support iframes
+</iframe>
 </body>
 <script src="js/main.js" type="text/javascript"></script>
 </html>
