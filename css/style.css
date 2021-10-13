@@ -133,6 +133,7 @@ a#btn {
 .eva {
     width: 100%;
     text-align: center;
+    margin: auto;
 }
 
 .eva img {
@@ -193,22 +194,22 @@ img.selfie {
 }
 
 #dr1 {
-    left: 76px;
-    top: -297px;
+    left: 58px;
+    top: -213px;
     position: relative;
     z-index: 0;
 }
 
 #dr2 {
-    left: -98px;
-    top: -65px;
+    left: -97px;
+    top: -59px;
     position: relative;
-    z-index: 0;
+    z-index: 1;
 }
 
 #dr3 {
-    left: -133px;
-    top: -337px;
+    left: -145px;
+    top: -266px;
     position: relative;
     z-index: 0;
 }
@@ -221,22 +222,22 @@ img.selfie {
 }
 
 #dr5 {
-    left: -237px;
-    top: -339px;
+    left: -230px;
+    top: -283px;
     position: relative;
     z-index: 0;
 }
 
 #dr6 {
-    left: -226px;
-    top: 116px;
+    left: -239px;
+    top: 75px;
     position: relative;
-    z-index: 0;
+    z-index: -1;
 }
 
 #dr7 {
-    left: -295px;
-    top: -323px;
+    left: -291px;
+    top: -293px;
     position: relative;
     z-index: 0;
 }
@@ -445,12 +446,8 @@ iframe.drgImg1 {
         width: 90%;
     }
 
-    img.selfie {
+    .eva img, img.selfie {
         width: 80%;
-    }
-
-    .eva {
-        width: 85%;
     }
 
     .infobox {
