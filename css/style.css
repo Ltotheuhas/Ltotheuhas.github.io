@@ -225,21 +225,21 @@ img.selfie {
     left: -230px;
     top: -283px;
     position: relative;
-    z-index: 0;
+    z-index: 1;
 }
 
 #dr6 {
     left: -239px;
     top: 75px;
     position: relative;
-    z-index: -1;
+    z-index: 0;
 }
 
 #dr7 {
     left: -291px;
     top: -293px;
     position: relative;
-    z-index: 0;
+    z-index: 1;
 }
 
 .drgImg1 {
