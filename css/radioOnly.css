@@ -338,6 +338,13 @@ iframe.drgImg1 {
     right: 100px;
 }
 
+#evil {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 45px;
+}
+
 /* Portrait */
 @media screen and (orientation: portrait) {
     a#btn {
