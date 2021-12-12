@@ -98,7 +98,6 @@ texts.push("Eva Hakai is flashing right before your eyes");
 texts.push("Eva Hakai is the reason no agreements blew up");
 texts.push("Eva Hakai is there for you");
 
-
 var point = 0;
 
 function changeText() {
@@ -274,3 +273,7 @@ function scrolltop() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+//alternating images for that one art thing only
+
+//doesnt fucking work when put in here its in a script tag in aboutme rn

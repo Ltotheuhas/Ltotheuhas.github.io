@@ -48,47 +48,77 @@
     <div style="height: 60px"></div>
     <h1>clothes</h1>
     <div class="eva">
-        <img class="tba" onmouseover="this.src='assets/shirt6tba.png'"
-             onmouseout="this.src='assets/shirt6.png'" src="assets/shirt6.png"/>
+        <a href="https://evahakai.bandcamp.com/merch/eva-basics-no" target="_blank">
+            <img src="assets/clothes/shirt7.png"/>
+        </a>
+    </div>
+    <div class="eva">
+        <img class="tba" onmouseover="this.src='assets/clothes/shirt6tba.png'"
+             onmouseout="this.src='assets/clothes/shirt6.png'" src="assets/clothes/shirt6.png"/>
     </div>
     <div class="eva">
         <a href="https://merch.noagreements.co/product/noah-reincarnation-t-shirt" target="_blank">
-            <img src="assets/shirt5.png"/>
+            <img src="assets/clothes/shirt5.png"/>
         </a>
     </div>
     <div class="eva">
         <a href="https://merch.noagreements.co/product/bliss3three-t-shirt" target="_blank">
-            <img src="assets/shirt4.png"/>
+            <img src="assets/clothes/shirt4.png"/>
         </a>
     </div>
     <div class="eva">
-        <img class="tba" onmouseover="this.src='assets/longsleeve2tba.png'"
-             onmouseout="this.src='assets/longsleeve2.png'" src="assets/longsleeve2.png"/>
+        <img class="tba" onmouseover="this.src='assets/clothes/longsleeve2tba.png'"
+             onmouseout="this.src='assets/clothes/longsleeve2.png'" src="assets/clothes/longsleeve2.png"/>
     </div>
     <div class="eva">
         <a href="https://evahakai.bandcamp.com/merch/eva-flannel-longsleeve" target="_blank">
-            <img src="assets/longsleeve1.png"/>
+            <img src="assets/clothes/longsleeve1.png"/>
         </a>
     </div>
     <div class="eva">
         <a href="https://evahakai.bandcamp.com/merch/eva-putrid-fuckin-disgusting-sewer-hoodie" target="_blank">
-            <img src="assets/hoodie1.png"/>
+            <img src="assets/clothes/hoodie1.png"/>
         </a>
     </div>
     <div class="eva">
         <a href="https://evahakai.bandcamp.com/merch/eva-basics-no-2" target="_blank">
-            <img src="assets/shirt3.png"/>
+            <img src="assets/clothes/shirt3.png"/>
         </a>
     </div>
     <div class="eva">
         <a href="https://evahakai.bandcamp.com/merch/eva-basics-no-1" target="_blank">
-            <img src="assets/shirt2.png"/>
+            <img src="assets/clothes/shirt2.png"/>
         </a>
     </div>
     <div class="eva">
         <a href="https://evahakai.bandcamp.com/merch/eva-split-striped-shirt" target="_blank">
-            <img src="assets/shirt1.png"/>
+            <img src="assets/clothes/shirt1.png"/>
         </a>
+    </div>
+    <div style="height: 30px"></div>
+    <h1>artwork</h1>
+    <div style="height: 15px"></div>
+    <div class="eva">
+        <img class="selfie" onmouseover="this.src='https://pbs.twimg.com/media/FGaOzzjXIAcaA1d?format=jpg'"
+             onmouseout="this.src='https://pbs.twimg.com/media/FGaOzS7XwAQPtUC?format=jpg'"
+             src="https://pbs.twimg.com/media/FGaOzS7XwAQPtUC?format=jpg"/>
+    </div>
+    <div style="height: 30px"></div>
+    <div class="eva">
+        <img class="selfie" onmouseover="this.src='https://pbs.twimg.com/media/FGQvN7EXMAcqUEC?format=jpg'"
+             onmouseout="this.src='https://pbs.twimg.com/media/FGQvNMKXwAIENe-?format=jpg'"
+             src="https://pbs.twimg.com/media/FGQvNMKXwAIENe-?format=jpg"/>
+    </div>
+    <div style="height: 30px"></div>
+    <div class="eva">
+        <img class="selfie" id="alternating" onmouseover=startTimer() onmouseout=stopTimer()
+             src="https://pbs.twimg.com/media/FGM4WJOWYAQCTC9?format=jpg"/>
+    </div>
+    <div style="height: 30px"></div>
+    <div class="eva">
+        <img class="selfie" onmouseover="this.src='https://pbs.twimg.com/media/FGCi6C6WYAUs5NZ?format=jpg'"
+             onmouseout="this.src='https://pbs.twimg.com/media/FGCi5TNWYAYAsDd?format=jpg'"
+             src="https://pbs.twimg.com/media/FGCi5TNWYAYAsDd?format=jpg"/>
     </div>
     <div style="height: 30px"></div>
     <h1>(internet) festivals</h1>
@@ -99,10 +129,14 @@
         </a>
     </div>
     <p class="info">Performed a mix of demos by several beautiful musicians at the scribbled out part</p>
-    <div style="height: 15px"></div>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <audio controls id="player" src="assets/luhas%20section%20dlive.mp3"></audio>
+    </div>
+    <div style="height: 30px"></div>
     <div class="eva">
         <a href="https://www.youtube.com/watch?v=Z0c1ORErhLU" target="_blank">
-            <img class="selfie" src="https://cdn.discordapp.com/attachments/598923673793200138/848286615339139072/Seaweed_jesus_poster.png"/>
+            <img class="selfie"
+                 src="https://cdn.discordapp.com/attachments/598923673793200138/848286615339139072/Seaweed_jesus_poster.png"/>
         </a>
     </div>
     <p class="info">The original stream of this event has unfortunately been taken down</p>
@@ -221,4 +255,25 @@
 <div id="footer"></div>
 </body>
 <script src="js/main.js" type="text/javascript"></script>
+<script>
+    var artarray = new Array();
+    artarray[0] = "https://pbs.twimg.com/media/FGM4Uz7WUAg8lgd?format=jpg";
+    artarray[1] = "https://pbs.twimg.com/media/FGM4VklXwAIdmle?format=jpg";
+    artarray[2] = "https://pbs.twimg.com/media/FGM4WJOWYAQCTC9?format=jpg";
+    var artpos = -1;
+    var artinterval;
+
+    function displayNextImage() {
+        artpos = (artpos === artarray.length - 1) ? 0 : artpos + 1;
+        document.getElementById("alternating").src = artarray[artpos];
+    }
+
+    function startTimer() {
+        artinterval = setInterval(displayNextImage, 200);
+    }
+
+    function stopTimer() {
+        clearInterval(artinterval);
+    }
+</script>
 </html>
