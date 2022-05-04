@@ -113,6 +113,14 @@ a#btn {
     text-decoration: none;
 }
 
+.forms input {
+    border: 1px solid #353535;
+    color: #353535;
+    padding: 5px;
+    margin-right: 6px;
+    border-radius: 3px;
+}
+
 .draggable {
     position: absolute;
     cursor: grab;
