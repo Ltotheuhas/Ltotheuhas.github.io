@@ -71,7 +71,7 @@ $(function () {
 
 function checkPassword() {
     if (document.getElementById('password').value == '8264012710') {
-        location.href = "https://miro.medium.com/max/1400/1*IWwE2qRaz63nF3BWGID5ag.jpeg";
+        location.href = "https://discord.gg/4mK2NcYd3m";
     }
 }
 
