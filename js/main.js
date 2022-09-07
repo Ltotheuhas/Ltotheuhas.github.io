@@ -36,14 +36,16 @@ function shuffle(arr) {
 
 //index video
 function setScreen() {
-    var vidNr = randomInteger(1, 14);
+    var vidNr = randomInteger(1, 15);
     var rareSeed = randomInteger(1, 70);
 
-    if (rareSeed == 33) {
+    document.getElementById("homepage").src = "assets/homepage/homepage15.mp4";
+
+    /*if (rareSeed == 33) {
         document.getElementById("homepage").src = "assets/homepage/homepage99.mp4";
     } else {
         document.getElementById("homepage").src = "assets/homepage/homepage" + vidNr + ".mp4";
-    }
+    }*/
 }
 
 //load header and footer
