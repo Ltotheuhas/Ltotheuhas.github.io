@@ -19,7 +19,7 @@ function randomInteger(min, max) {
 
 //array shuffle
 function shuffle(arr) {
-    var currentIndex = arr.length, randomIndex;
+    let currentIndex = arr.length, randomIndex;
 
     // While there remain elements to shuffle...
     while (0 !== currentIndex) {
@@ -36,16 +36,14 @@ function shuffle(arr) {
 
 //index video
 function setScreen() {
-    var vidNr = randomInteger(1, 15);
-    var rareSeed = randomInteger(1, 70);
+    let vidNr = randomInteger(1, 15);
+    let rareSeed = randomInteger(1, 70);
 
-    document.getElementById("homepage").src = "assets/homepage/homepage15.mp4";
-
-    /*if (rareSeed == 33) {
+    if (rareSeed == 33) {
         document.getElementById("homepage").src = "assets/homepage/homepage99.mp4";
     } else {
         document.getElementById("homepage").src = "assets/homepage/homepage" + vidNr + ".mp4";
-    }*/
+    }
 }
 
 //load header and footer
