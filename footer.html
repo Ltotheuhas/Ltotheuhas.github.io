@@ -1,5 +1,9 @@
 <div class="footer">
-    <a href="mailto: ltotheuhas@gmail.com" target="_blank"><p class="copyright">Luhas © Unlicensed Product ☻☺☻ 2023</p></a>
+    <a href="mailto: ltotheuhas@gmail.com" target="_blank"><p class="copyright">Luhas © Unlicensed Product ☻☺☻ <span id="year"></span></p></a>
     <button class="cursorButton" onclick="change()">Enable epic cursor</button>
     <div style="clear: both"></div>
 </div>
+
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>

@@ -69,11 +69,11 @@ $(function () {
     });
 });
 
-function checkPassword() {
+/*function checkPassword() {
     if (document.getElementById('password').value == '8264012710') {
         location.href = "https://discord.gg/4mK2NcYd3m";
     }
-}
+}*/
 
 //fluctuating text.txt content on the eva page
 var texts = new Array();
@@ -193,7 +193,7 @@ function playAudio() {
     document.getElementById('player').play();
 }
 
-//prism images
+/*prism images
 var imageLinks = new Array();
 var imageCount = 1;
 
@@ -278,7 +278,7 @@ jlrImg.addEventListener('click', function () {
 function scrolltop() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
+}*/
 
 //alternating images for that one art thing only
 
