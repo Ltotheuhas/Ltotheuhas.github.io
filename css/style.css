@@ -57,6 +57,7 @@ p.info {
 
 img#logo {
     height: 49px;
+    width: auto !important;
 }
 
 .footer {
